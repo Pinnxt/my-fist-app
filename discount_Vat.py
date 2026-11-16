@@ -11,6 +11,6 @@ netprice = (price - discount) + vat
 
 km.header("ผลการคำนวณ")
 km.write("ส่วนลด:", discount, "บาท")
-km.write("VAT 7%:", vat, "บาท")
+km.write("ภาษีมูลค่าเพิ่ม (VAT 7%):", vat, "บาท")
 km.write("ราคาสุทธิ:", netprice, "บาท")
 km.write("นางณัฐชาตรี คงสุนทร เลขที่ 35  ม.4/5")
