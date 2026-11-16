@@ -9,8 +9,7 @@ discount = price * sale / 100
 vat = (price - discount) * 0.07
 netprice = (price - discount) + vat
 
-km.subheader("ราคาสุทธิที่ต้องจ่าย")
-km.write(netprice, "บาท")
+km.subheader(f"ราคาสุทธิที่ต้องจ่าย: {netprice:.2f} บาท")
 km.write("ราคาหลังหักส่วนลด:", price - discount, "บาท")
 km.write("ภาษีมูลค่าเพิ่ม (VAT 7%):", vat, "บาท")
 
