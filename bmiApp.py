@@ -7,7 +7,7 @@ weight = km.number_input("กรอกน้ำหนักของคุณ (�
 height_cm = km.number_input("กรอกน้ำส่วนสูงของคุณ (เซนติเมตร):", min_value=1.0, value=1.0)
 
 if km.button("คำนวณค่า BMI📱 "):
-  height_m  height_cm /100
+  height_m = height_cm /100
   bmi = weight - (height_m ** 2)
 
 km.write("---")
