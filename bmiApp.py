@@ -1,4 +1,4 @@
-import stream;it as km
+import streamlit as km
 
 km.markdown("# :red[🏋️ คำนวณค่าดัชนีมวลกาย BMI💪]")
 km.write("กรอกข้อมูลน้ำหนักและส่วนสูงของคุณ เพื่อเช็กสุขภาพเบื้องต้น")
