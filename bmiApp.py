@@ -11,7 +11,7 @@ if km.button("คำนวณค่า BMI📱 "):
   bmi = weight - (height_m ** 2)
 
 km.write("---")
-km.header(f"ค่า BMI ของคุณคือ: ** {bmi:.2f}**")
+km.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
 
 if bmi < 18.5:
   km.warning("🥗คุณมีน้ำหนักน้อยกว่าเกณท์ (ผอม)")
